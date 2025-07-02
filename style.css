@@ -1,4 +1,3 @@
-/* INDEX */
 body{
     background-color: black;
     display: flex;
@@ -38,38 +37,4 @@ body{
   100% {
     transform: scale(1);
   }
-}
-/* INDEX */
-
-.btnVoltar{
-    padding: 10px 15px;
-    width: 100%;
-}
-.btnVoltar a{
-    text-decoration: none;  
-    cursor: pointer; 
-    text-align: left;
-}
-.btnVoltar i{
-    font-size: 20pt;
-    color: white;
-}
-
-.text{
-    width: 90%;
-    flex: 1;
-    margin-top: 30px;
-}
-.text h2{
-    text-align: center;
-}
-.text p{
-    text-align: justify;
-}
-footer{
-    background-color: rgb(12, 12, 12);
-    width: 100%;
-    text-align: center;
-    color: grey;
-    padding: 10px 0;
 }
