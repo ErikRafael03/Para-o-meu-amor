@@ -1,0 +1,75 @@
+/* INDEX */
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btnAnimado {
+  background-color: rgb(255, 41, 41);
+  padding: 15px 60px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 14pt;
+  cursor: pointer;
+  margin-top: 20px;
+  animation: pulse 1.2s infinite;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+#btnAnimado:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* INDEX */
+
+.btnVoltar{
+    padding: 10px 15px;
+    width: 100%;
+}
+.btnVoltar a{
+    text-decoration: none;  
+    cursor: pointer; 
+    text-align: left;
+}
+.btnVoltar i{
+    font-size: 20pt;
+    color: white;
+}
+
+.text{
+    width: 90%;
+    flex: 1;
+    margin-top: 30px;
+}
+.text h2{
+    text-align: center;
+}
+.text p{
+    text-align: justify;
+}
+footer{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    text-align: center;
+    color: grey;
+    padding: 10px 0;
+}
