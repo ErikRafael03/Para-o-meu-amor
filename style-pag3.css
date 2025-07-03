@@ -23,34 +23,45 @@ body{
     font-size: 20pt;
     color: white;
 }
-
-.text{
-    width: 90%;
+main{
     flex: 1;
-    margin: 0px 5%;
-}
-.text h2, h5{
     text-align: center;
 }
-.text p{
-    text-align: justify;
+main h1{
+    margin-bottom: 40px;
+    font-weight: 600;
+    animation: colorChange 5s infinite ease-in-out;
+}
+@keyframes colorChange {
+  0%   { color: red; }
+  20%  { color: orange; }
+  40%  { color: yellow; }
+  60%  { color: green; }
+  80%  { color: blue; }
+  100% { color: violet; }
+}
+#foto{
+    width: 90%;
+  animation: pulse 1.2s infinite;
+  transition: transform 0.3s;
+}
+#foto:hover {
+  transform: scale(1.1);
 }
 
-.btnAvancar{
-    padding: 20px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-.btnAvancar a{
-    text-decoration: none;  
-    cursor: pointer; 
-    text-align: right;
-}
-.btnAvancar i{
-    font-size: 20pt;
-    color: white;
-}
+
+
 footer{
     background-color: rgb(12, 12, 12);
     width: 100%;
