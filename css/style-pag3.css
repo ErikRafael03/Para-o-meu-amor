@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: poppinsregular;
+}
+.btnVoltar{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+}
+.btnVoltar a{
+    text-decoration: none;  
+    cursor: pointer; 
+    text-align: left;
+}
+.btnVoltar i{
+    font-size: 20pt;
+    color: white;
+}
+main{
+    flex: 1;
+    text-align: center;
+}
+main h2{
+    font-weight: 600;
+}
+#mensagem {
+  color: white;
+  font-size: 20px;
+  margin: 0px 5px 30px 0px;
+  min-height: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  text-align: center;
+}
+#foto{
+    width: 90%;
+  animation: pulse 1.2s infinite;
+  transition: transform 0.3s;
+}
+#foto:hover {
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#subtitle{
+  margin: 20px 0px;
+}
+footer{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    text-align: center;
+    color: grey;
+    padding: 10px 0;
+    top: 0;
+}

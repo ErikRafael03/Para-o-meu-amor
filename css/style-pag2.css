@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: poppinsregular;
+}
+.btnVoltar{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+}
+.btnVoltar a{
+    text-decoration: none;  
+    cursor: pointer; 
+    text-align: left;
+}
+.btnVoltar i{
+    font-size: 20pt;
+    color: white;
+}
+
+.text{
+    width: 90%;
+    flex: 1;
+    margin: 0px 5%;
+}
+.text h2, h5{
+    text-align: center;
+}
+.text p{
+    text-align: justify;
+}
+
+.btnAvancar{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.btnAvancar a{
+    text-decoration: none;  
+    cursor: pointer; 
+    text-align: right;
+}
+.btnAvancar i{
+    font-size: 20pt;
+    color: white;
+}
+footer{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    text-align: center;
+    color: grey;
+    padding: 10px 0;
+    top: 0;
+}
